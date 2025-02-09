@@ -427,7 +427,6 @@ footer{
         width: 200px;
         height: 200px;
         padding-left: 0 ;
-        margin-right: 55px;
     }
     .img-decs2{
         height: 300px;
@@ -445,26 +444,27 @@ footer{
     width: 290px;
     gap:5px;
     padding-top: 5px;
+    margin-left: 35px ;
     }
     .desc-buttom{
         width: 350px;
         gap: 50px;
         padding-top: 5px;
-        margin-left: 10px;
+        margin-left: 60px;
     }
     .smell{
       margin-right: 40px;
     }
     .description-product{
-        width: 100px;
+        width: 150px;
         margin-left: 40px;
         margin-right: 0px;
         font-size: 12px;
         padding: 10px;
     }
     .description-product2{
-      padding-left:10px;
-      width: 100px;
+      padding-left:40px;
+      width: 150px;
       margin-right: 0px;
       font-size: 12px;
       padding: 10px;

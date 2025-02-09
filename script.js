@@ -6,6 +6,12 @@ const hamburger = document.querySelector('#hamburger-menu');
 document.querySelector ('#hamburger-menu').onclick= () => {
     navbarNav.classList.toggle('active');
 };
+
+document. addEventListener( 'click', function (e) {
+if (!hamburger.contains(e.target) && !navbarNav.contains(e.target)) {
+navbarNav. classList. remove('active');
+}
+});
 // slider produck
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll(".content-product")[0];
